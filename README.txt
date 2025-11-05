@@ -1,4 +1,4 @@
-7inch long range drone build:
+7inch long range drone build by pd2115:
 2504 3000kv motor, 2 blade or 3 blade propeller
 Speedybee F722 A3 50A ECS or Speedybee F405 AIO
 DJI O3 air unit FCC 
@@ -27,6 +27,6 @@ radio: 200mw ERLS 2.4 /2 linear antenna
 
 
 
-
+This drone set-up is for advanced player,fly at your own risk
 please use 42688P gyro
 This award-winning prototype was developed for the Greater Bay Area Low-Altitude Economy Challenge.
