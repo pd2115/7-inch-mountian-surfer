@@ -1,0 +1,97 @@
+# serial
+serial 2 131073 115200 57600 0 115200
+serial 4 2 115200 0 0 115200
+
+# beeper
+beeper -BAT_CRIT_LOW
+beeper -BAT_LOW
+beeper -GPS_STATUS
+
+# aux
+aux 0 0 0 1875 2100 0 0
+aux 1 1 3 1875 2100 0 0
+aux 2 13 5 1875 2100 0 0
+aux 3 35 7 1925 2100 0 0
+aux 4 36 1 1875 2100 0 0
+aux 5 53 1 1800 2100 0 0
+aux 6 46 2 1875 2075 0 0
+aux 7 27 4 1725 2100 0 0
+
+# rxfail
+rxfail 7 s 2000
+
+# master
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set acc_calibration = 37,0,-1,1
+set fpv_mix_degrees = 24
+set dshot_idle_value = 600
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set motor_poles = 12
+set motor_output_reordering = 1,3,0,2,4,5,6,7
+set failsafe_delay = 10
+set failsafe_switch_mode = STAGE2
+set failsafe_procedure = GPS-RESCUE
+set align_board_roll = 180
+set align_board_pitch = 180
+set align_board_yaw = 45
+set bat_capacity = 2500
+set vbat_min_cell_voltage = 320
+set vbat_warning_cell_voltage = 335
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_rescue_alt_mode = CURRENT_ALT
+set gps_rescue_initial_climb = 20
+set gps_rescue_ground_speed = 800
+set gps_rescue_throttle_hover = 1310
+set gps_rescue_min_sats = 6
+set pid_process_denom = 2
+set osd_warn_bitmask = 24561
+set osd_cap_alarm = 2000
+set osd_alt_alarm = 200
+set osd_tim1 = 0
+set osd_tim2 = 2049
+set osd_vbat_pos = 1324
+set osd_link_quality_pos = 2089
+set osd_link_tx_power_pos = 2114
+set osd_rssi_dbm_pos = 2082
+set osd_tim_1_pos = 1420
+set osd_tim_2_pos = 3468
+set osd_remaining_time_estimate_pos = 2401
+set osd_flymode_pos = 577
+set osd_g_force_pos = 399
+set osd_throttle_pos = 2625
+set osd_crosshairs_pos = 313
+set osd_ah_pos = 2458
+set osd_current_pos = 2368
+set osd_mah_drawn_pos = 3371
+set osd_craft_name_pos = 2049
+set osd_gps_speed_pos = 2417
+set osd_gps_lon_pos = 3080
+set osd_gps_lat_pos = 3112
+set osd_gps_sats_pos = 2145
+set osd_home_dir_pos = 2682
+set osd_home_dist_pos = 2648
+set osd_flight_dist_pos = 576
+set osd_compass_bar_pos = 2070
+set osd_altitude_pos = 19808
+set osd_warnings_pos = 14517
+set osd_avg_cell_voltage_pos = 3404
+set osd_battery_usage_pos = 33109
+set osd_disarmed_pos = 2486
+set osd_ready_mode_pos = 2456
+set osd_nvario_pos = 3458
+set osd_esc_tmp_pos = 545
+set osd_flip_arrow_pos = 346
+set osd_core_temp_pos = 353
+set osd_efficiency_pos = 2337
+set osd_total_flights_pos = 1104
+set osd_stat_bitmask = 8784412
+set gyro_1_sensor_align = CW0
+set gyro_1_align_yaw = 0
+
+# restore original rateprofile selection
+rateprofile 1
+
+# save configuration
